@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryKardex.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c4849b69e8709d71829dbfe2d0ddab614125cc1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+862ecb8e07dd26f616acf628257786caeb8b1d64")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryKardex.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryKardex.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
