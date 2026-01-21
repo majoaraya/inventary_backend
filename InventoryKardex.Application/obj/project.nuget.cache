@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z+MZ8Tj/3NM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maria\\Desktop\\INVENTORY\\INVENTORY_BACKEND\\inventary_backend\\InventoryKardex.Application\\InventoryKardex.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maria\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="InventoryKardex.Api/InventoryKardex.Api.csproj" />
+  <Project Path="InventoryKardex.Application/InventoryKardex.Application.csproj" />
+  <Project Path="InventoryKardex.Domain/InventoryKardex.Domain.csproj" />
+  <Project Path="InventoryKardex.Infrastructure/InventoryKardex.Infrastructure.csproj" />
+</Solution>
