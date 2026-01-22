@@ -1,0 +1,16 @@
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\bin\Debug\net10.0\InventoryKardex.Application.deps.json
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\bin\Debug\net10.0\InventoryKardex.Application.dll
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\bin\Debug\net10.0\InventoryKardex.Application.pdb
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\bin\Debug\net10.0\InventoryKardex.Domain.dll
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\bin\Debug\net10.0\InventoryKardex.Domain.pdb
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.csproj.AssemblyReference.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.AssemblyInfoInputs.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.AssemblyInfo.cs
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.csproj.CoreCompileInputs.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.sourcelink.json
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\Inventor.1D228E72.Up2Date
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.dll
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\refint\InventoryKardex.Application.dll
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\InventoryKardex.Application.pdb
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Application\obj\Debug\net10.0\ref\InventoryKardex.Application.dll
