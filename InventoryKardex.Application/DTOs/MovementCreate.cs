@@ -1,0 +1,12 @@
+// DTOs (Data Transfer Objects) are simple classes used to move data between layers (API, services, frontend).
+// They help control what data is sent/received (e.g., never expose password_hash) and keep the API stable
+// even if internal entities or database tables change.
+
+namespace InventoryKardex.Application.DTOs;
+
+public record MovementCreate
+{
+    long ProductId;
+    int Quantity;
+    string MovementType;
+}

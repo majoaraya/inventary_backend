@@ -1,4 +1,4 @@
-namespace.InventoryKardex.Domain.Entities;
+namespace InventoryKardex.Domain.Entities;
 
 public class InventoryStock
 {
