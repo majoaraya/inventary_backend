@@ -5,42 +5,31 @@ var builder = WebApplication.CreateBuilder(args);
 // Services
 builder.Services.AddOpenApi();
 builder.Services.AddSingleton<DbConnectionFactory>();
-builder.Services.AddControllers(); // <-- AQUÍ
+builder.Services.AddControllers();
+
+// CORS (default policy)
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("http://localhost:5173")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
-// Pipeline
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
-app.MapControllers(); // <-- AQUÍ (antes de app.Run())
+app.UseCors(); // <-- usa la policy default
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast(
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// IMPORTANT: apply CORS to endpoints
+app.MapControllers().RequireCors(); // <-- fuerza CORS en controllers
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
