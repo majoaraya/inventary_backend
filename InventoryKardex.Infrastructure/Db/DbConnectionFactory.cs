@@ -1,4 +1,4 @@
-using System.Data;
+using System.Data.Common;
 using Microsoft.Extensions.Configuration;
 using MySqlConnector;
 
@@ -10,8 +10,9 @@ public class DbConnectionFactory
 
     public DbConnectionFactory(IConfiguration configuration)
     {
-        _connectionString = configuration.GetConnectionString("Default") ?? throw new InvalidOperationException("Misiing ConnectionStrings: Default in appsettings.json");
+        _connectionString = configuration.GetConnectionString("Default")
+            ?? throw new InvalidOperationException("Missing ConnectionStrings:Default in appsettings.json");
     }
 
-    public IDbConnection CreateConnection() => new MySqlConnection(_connectionString);
+    public DbConnection CreateConnection() => new MySqlConnection(_connectionString);
 }

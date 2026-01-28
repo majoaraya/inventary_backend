@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vQUBGU2VbPA=",
+  "dgSpecHash": "qd/TlXIm2EI=",
   "success": true,
   "projectFilePath": "C:\\Users\\maria\\Desktop\\INVENTORY\\INVENTORY_BACKEND\\inventary_backend\\InventoryKardex.Infrastructure\\InventoryKardex.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\maria\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.2\\microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
     "C:\\Users\\maria\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

@@ -1,13 +1,18 @@
+using System.Text;
 using InventoryKardex.Infrastructure.Db;
+using InventoryKardex.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Services
-builder.Services.AddOpenApi();
-builder.Services.AddSingleton<DbConnectionFactory>();
 builder.Services.AddControllers();
+builder.Services.AddOpenApi();
 
-// CORS (default policy)
+builder.Services.AddSingleton<DbConnectionFactory>();
+builder.Services.AddScoped<UserRepository>();
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -18,6 +23,25 @@ builder.Services.AddCors(options =>
     });
 });
 
+// JWT Auth
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        var key = builder.Configuration["Jwt:Key"]!;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+        };
+    });
+
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -25,11 +49,14 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-//app.UseHttpsRedirection();
+// (En dev, si te vuelve a dar problemas, podés comentar esto)
+// app.UseHttpsRedirection();
 
-app.UseCors(); // <-- usa la policy default
+app.UseCors();
 
-// IMPORTANT: apply CORS to endpoints
-app.MapControllers().RequireCors(); // <-- fuerza CORS en controllers
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.Run();

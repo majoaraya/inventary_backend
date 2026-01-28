@@ -1,3 +1,9 @@
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.AssemblyInfo.cs
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.sourcelink.json
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Infrastructure.deps.json
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Infrastructure.dll
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Infrastructure.pdb
@@ -5,12 +11,6 @@ C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKa
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Domain.dll
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Application.pdb
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\bin\Debug\net10.0\InventoryKardex.Domain.pdb
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.AssemblyInfo.cs
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.sourcelink.json
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\Inventor.627C1126.Up2Date
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\InventoryKardex.Infrastructure.dll
 C:\Users\maria\Desktop\INVENTORY\INVENTORY_BACKEND\inventary_backend\InventoryKardex.Infrastructure\obj\Debug\net10.0\refint\InventoryKardex.Infrastructure.dll

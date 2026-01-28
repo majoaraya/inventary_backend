@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "InventoryKardex.Infrastructure/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.66",
           "InventoryKardex.Application": "1.0.0",
           "InventoryKardex.Domain": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.2",
@@ -15,6 +16,14 @@
         },
         "runtime": {
           "InventoryKardex.Infrastructure.dll": {}
+        }
+      },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
+          }
         }
       },
       "FluentValidation/12.1.1": {
@@ -102,6 +111,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "FluentValidation/12.1.1": {
       "type": "package",
